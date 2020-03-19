@@ -1,0 +1,213 @@
+ /* html {
+	background-image: url("https://images.unsplash.com/photo-1547122891-8aae3f2a03dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position
+}*/
+/*#homeimage{
+	background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/black-girl-magic-sparkle-karissa-tolliver.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top-center;
+	background-attachment: fixed;
+}
+*/
+.color-change-2x{
+	-webkit-animation: color-change-2x 5s linear infinite alternate both;
+	        animation: color-change-2x 5s linear infinite alternate both;
+	    }
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+#homeimage{
+	display: block;
+	margin: 0 auto;
+	box-shadow: 13px 14px 13px 9px #00468e;
+}
+
+.bar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffe000f5;
+}
+}
+
+ #blog{
+	background-image: url("https://images.unsplash.com/photo-1547122891-8aae3f2a03dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+.barcolor{
+	background-color: black;
+}
+.bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.bar li {
+    float: left;
+}
+.bar li a, .dropbtn {
+    display: inline-block;
+    color: #00468e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0088ce;
+}
+.bar li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: #800080;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: ##b22cff}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav li{
+	display: inline;
+	font-weight: bolder;
+	font-size: 25px
+	
+	text-transform: uppercase;
+	font-family: sans-serif; 
+	margin-right: 30px;
+
+}
+nav a{
+	text-decoration: none;
+	color: #800080;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: teal;
+}
+
+h1 {
+ color: purple;	
+ font-family: 'Pacifico', cursive;
+ text-shadow: 2px 2px 5px black;
+ text-align: center;
+  }
+  h2{color: pink;	
+  font-size: 80px;
+ font-family: 'Special Elite', cursive;
+ text-shadow: 2px 2px 5px black;
+ text-align: center;  	
+  }
+ h4 { 
+	 color: teal; 		
+	 font-size: 30px;
+	 margin-block-end: .33em 
+ }
+ li{
+ 	font-weight: inherit;
+ }
+
+ button {
+ 	border: 2px solid;
+ 	padding: 10px, 25px;
+ 	display: block;
+ 	margin-bottom: 20px;
+ }
+ button:hover {
+ 	background-color: black;
+ 	color: white;
+ }
+ .redButton {
+ 	border: 2px solid red;
+ }
+ .redButton:hover {
+ 	background-color: red;
+ }
+ .blueButton {
+ 	border: 2px solid blue;
+ }
+ .blueButton:hover {
+ 	background-color: blue;
+ }
+ /*img { 
+ border: 5px dotted red;
+  }
+   use the commas to seperate multiple selectors and apply the same rule*/
+ table, th, td {
+ 	border: 3px solid black;
+ }
+ table {
+ 	background-color: teal;
+ 	padding: 15px; 
+ 	margin: 0 auto; /* when there are 2 numbers the 1st set is for top and bottem the the 2nd is for right and left */
+ 	text-align: center;
+ }
+ th, td {
+ 	background-color: white;
+ 	padding: 5px; 
+ }
+ .tableHeadingRow {
+ 	margin-bottom: 10px;
+
+ }
+
+ /* The # signals an ID*/
+ #key {
+ 	color: purple;
+ 	text-align: center;
+ }
+ /* The . signals a class*/
+ .eduImage {
+ 	transform: rotate(360deg);
+ 	border: 5px dotted red;
+ }
+ #wf {
+ 	
+ 	border: 5px dotted red;
+ 
+ }
+ form{
+ 	font-family: serif;
+ 	color: purple;
+ 	
+ }
+ form input, form select {
+ 	display: block;
+ 	
+
+ }
+ .inline{
+ 	display: inline;
+ }
